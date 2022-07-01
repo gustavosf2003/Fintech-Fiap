@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./profile.css" />
+  </head>
+  <body class="d-flex">
+    <aside class="sidebar">
+      <nav class="d-flex flex-column">
+        <div>
+          <li>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 10L3 8M3 8L10 1L17 8M3 8V18C3 18.5523 3.44772 19 4 19H7M17 8L19 10M17 8V18C17 18.5523 16.5523 19 16 19H13M7 19C7.55228 19 8 18.5523 8 18V14C8 13.4477 8.44772 13 9 13H11C11.5523 13 12 13.4477 12 14V18C12 18.5523 12.4477 19 13 19M7 19H13"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 7H21M21 7V15M21 7L13 15L9 11L3 17"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 17H21M21 17V9M21 17L13 9L9 13L3 7"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+
+          <li>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 3.05493C6.50005 3.55238 3 7.36745 3 12C3 16.9706 7.02944 21 12 21C16.6326 21 20.4476 17.5 20.9451 13H11V3.05493Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M20.4878 9H15V3.5123C17.5572 4.41613 19.5839 6.44285 20.4878 9Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+        </div>
+      </nav>
+    </aside>
+    <main class="mt-5 mx-5 w-100 ">
+      <div class="d-flex">
+        <img src="./img/user.png" alt="User Image" />
+        <div>
+          <p>Gustavo Ferreira</p>
+          <span>Front-end developer</spans>
+        </div>
+      </div>
+      <section class=" mt-5 d-md-block d-lg-flex">
+          <article class="card">
+            <p>Personal data</p>
+            <label for="name" class="mt-4">Name</label>
+            <input class="form-control w-100" type="text" name="Name" id="name" />
+            <label for="email">Email</label>
+            <input
+              class="form-control w-100"
+              type="email"
+              name="Email"
+              id="email"
+            />
+            <label for="password">Password</label>
+            <input
+              class="form-control w-100"
+              type="password"
+              name="Password"
+              id="Password"
+            />
+            <label for="Occupation">Occupation</label>
+            <input
+              class="form-control w-100"
+              type="text"
+              name="Occupation"
+              id="occupation"
+            />
+            <label for="city">City</label>
+            <input class="form-control w-100" type="text" name="City" id="city" />
+          </article>
+          <article class="card second-card">
+            <p>Financial</p>
+            <label for="name" class="mt-4">Salary</label>
+            <input
+              class="form-control w-100"
+              type="text"
+              name="salary"
+              id="salary"
+            />
+            <label for="email">Expenses/month</label>
+            <input
+              class="form-control w-100"
+              type="email"
+              name="Email"
+              id="email"
+            />
+          </article>
+      </section>
+    </main>
+  </body>
+</html>

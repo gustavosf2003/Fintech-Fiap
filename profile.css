@@ -1,0 +1,34 @@
+.sidebar{
+    height: 100vh;
+    background: #353535;
+    color: white;
+    text-align: center;
+    padding: 0;
+    padding: 2rem 1.4rem;
+}
+.sidebar li{
+    list-style: none;
+    margin-top: 1.5rem;
+}
+img{
+    width: 3rem;
+    height: 3rem;
+}
+.card{
+    background: #eff1f2;
+    padding: 1.5rem;
+    height: 26rem;
+    margin: 0;
+}
+.second-card{
+    margin-left: 2rem;
+}
+p{
+    font-weight: bold;
+    margin: 0;
+}
+@media only screen and (max-width: 756px) {
+    .second-card {
+      margin: 2rem 0 0 0;
+    }
+  }
